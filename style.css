@@ -1,0 +1,37 @@
+.image{
+  height: 400px;
+  width: 400px;
+  background-image: url("images/clock.jpg") ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hands{
+  background: black;
+  border-radius: 20px;
+  position: absolute;
+}
+.hr{
+  height: 70px;
+  width: 7px;
+  left:49.7%;
+  top:131px;
+  transform-origin: bottom;
+  transform: rotate(20deg);
+}
+.min{
+  height: 90px;
+  width: 5px;
+  left:49.7%;
+  top:111px;
+  transform-origin: bottom;
+  transform: rotate(30deg);
+}
+.sec{
+  height: 110px;
+  width: 3px;
+  left:49.8%;
+  top:91px;
+  transform-origin: bottom;
+}
